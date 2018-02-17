@@ -2,6 +2,9 @@
 @import "home";
 @import "reset";
 
-body{
+body,
+html{
+    font-size: 18px;
     background: $SC;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }

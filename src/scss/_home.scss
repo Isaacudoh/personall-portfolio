@@ -9,7 +9,17 @@
             padding: 54px;
             position: absolute;
             bottom: 60px;
-            
+            h4{
+                font-size: 1.2rem;
+                color: $W;
+                margin: .7rem 0;
+            }
+            p{
+                font-size: 1.1rem;
+                font-weight: 300;
+                color: $W;
+                margin: .2rem 0 1.9rem;
+            }
         }
     }
     .content-area{
