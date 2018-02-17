@@ -1,11 +1,16 @@
+.home .logo {
+  background: #ffffff;
+  height: 100px;
+  width: 200px; }
+
 .home .info-section {
+  padding: 54px;
   width: 35%;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0; }
   .home .info-section .info-box {
-    padding: 54px;
     position: absolute;
     bottom: 60px; }
     .home .info-section .info-box h4 {
@@ -21,7 +26,9 @@
 .home .content-area {
   margin-left: 35%;
   width: 65%;
-  background: #ffffff; }
+  background: #ffffff;
+  height: 100%;
+  padding: 0 0 0 15%; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -70,8 +77,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body,
 html {
   font-size: 18px;
-  background: #f8d098;
-  font-family: 'Barlow Semi Condensed', sans-serif; }
+  background: #0e0e10;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  height: 100%; }

@@ -1,12 +1,17 @@
 .home{
+    .logo{
+        background: $W;
+        height: 100px;
+        width: 200px;
+    }
     .info-section{
+        padding: 54px;
         width: 35%;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         .info-box{
-            padding: 54px;
             position: absolute;
             bottom: 60px;
             h4{
@@ -26,5 +31,10 @@
         margin-left: 35%;
         width: 65%;
         background: $W;
+        height: 100%;
+        padding: 0 0 0 15%;
+        .profile-section{
+
+        }
     }
 }
