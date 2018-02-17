@@ -1,19 +1,3 @@
-.home .info-section {
-  width: 35%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0; }
-  .home .info-section .info-box {
-    padding: 54px;
-    position: absolute;
-    bottom: 60px; }
-
-.home .content-area {
-  margin-left: 35%;
-  width: 65%;
-  background: #ffffff; }
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -60,6 +44,3 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-body {
-  background: #f8d098; }

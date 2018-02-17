@@ -1,5 +1,20 @@
 .home{
+    .info-section{
+        width: 35%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        .info-box{
+            padding: 54px;
+            position: absolute;
+            bottom: 60px;
+            
+        }
+    }
     .content-area{
+        margin-left: 35%;
+        width: 65%;
         background: $W;
     }
 }
