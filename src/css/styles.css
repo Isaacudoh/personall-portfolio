@@ -26,9 +26,27 @@
 .home .content-area {
   margin-left: 35%;
   width: 65%;
-  background: #ffffff;
-  height: 100%;
-  padding: 0 0 0 15%; }
+  background: #41bdd3;
+  height: 100%; }
+  .home .content-area .img-container {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    height: 100%; }
+    .home .content-area .img-container .user-img {
+      position: absolute;
+      top: 56px;
+      left: -250px;
+      width: 500px;
+      height: calc(100% - 112px);
+      background: url(https://static.pexels.com/photos/697509/pexels-photo-697509.jpeg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  .home .content-area .profile-section {
+    vertical-align: top;
+    display: inline-block; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
