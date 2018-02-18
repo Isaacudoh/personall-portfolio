@@ -21,7 +21,14 @@
       font-size: 1.1rem;
       font-weight: 300;
       color: #ffffff;
-      margin: .2rem 0 1.9rem; }
+      margin: .2rem 0 1.6rem; }
+  .home .info-section .icon-section a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0 10px; }
+    .home .info-section .icon-section a:first-child {
+      padding: 0 10px 0 0; }
 
 .home .content-area {
   margin-left: 35%;
@@ -49,7 +56,7 @@
     vertical-align: top;
     display: inline-block;
     padding: 30% 0 0 0;
-    max-width: 700px; }
+    max-width: 590px; }
     .home .content-area .profile-section .profile h1 {
       font-size: 2.3rem;
       font-weight: 500;
@@ -140,7 +147,9 @@ html {
 
 .hamburger-icon {
   position: fixed;
-  right: 0; }
+  right: 59px;
+  top: 59px;
+  padding: 20px; }
   .hamburger-icon .fa {
     font-size: 2rem;
     color: #0e0e10; }
