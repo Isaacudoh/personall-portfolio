@@ -25,9 +25,10 @@
 
 .home .content-area {
   margin-left: 35%;
-  width: 65%;
+  width: 76%;
   background: #41bdd3;
-  height: 100%; }
+  height: 100%;
+  padding: 0 0 0 1.3rem; }
   .home .content-area .img-container {
     display: inline-block;
     width: 30%;
@@ -35,10 +36,10 @@
     height: 100%; }
     .home .content-area .img-container .user-img {
       position: absolute;
-      top: 56px;
+      top: 90px;
       left: -250px;
-      width: 500px;
-      height: calc(100% - 112px);
+      width: 600px;
+      height: 85%;
       background: url(https://static.pexels.com/photos/697509/pexels-photo-697509.jpeg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -46,7 +47,24 @@
       background-size: cover; }
   .home .content-area .profile-section {
     vertical-align: top;
-    display: inline-block; }
+    display: inline-block;
+    padding: 30% 0 0 0;
+    max-width: 700px; }
+    .home .content-area .profile-section .profile h1 {
+      font-size: 2.3rem;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 0 1rem; }
+      .home .content-area .profile-section .profile h1 span {
+        color: #ffff00; }
+    .home .content-area .profile-section .profile h5 {
+      font-size: 1.1rem;
+      margin: 0 0 2rem; }
+    .home .content-area .profile-section .profile p {
+      color: #f7f7f7;
+      font-weight: 300;
+      line-height: 1.4;
+      margin: 0 0 2rem 0; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
