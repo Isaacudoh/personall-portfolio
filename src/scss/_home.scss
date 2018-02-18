@@ -1,8 +1,18 @@
 .home{
     .logo{
-        background: $W;
-        height: 100px;
-        width: 200px;
+        border: 1px solid $W;
+        height: 130px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        color: $TC;
+        line-height: 0;
+        &:hover{
+            background: $W;
+            cursor: pointer;
+        }
     }
     .info-section{
         padding: 54px;
@@ -22,7 +32,7 @@
             }
             p{
                 font-size: 1.1rem;
-                font-weight: 300;
+                font-weight: 500;
                 color: $W;
                 margin: .2rem 0 1.6rem;
             }
@@ -33,6 +43,9 @@
                 text-decoration: none;
                 font-size: 1.8rem;
                 padding: 0 10px;
+                &:hover{
+                    color: $SC;
+                }
                 
                 &:first-child{
                     padding: 0 10px 0 0;
@@ -71,8 +84,8 @@
         .profile-section{
             vertical-align: top;
             display: inline-block;
-            padding: 30% 0 0 0;
-            max-width: 590px;
+            padding: 22% 0 0 0;
+            max-width: 690px;
 
             .profile{
                 h1{
@@ -81,19 +94,19 @@
                     line-height: 1.2;
                     margin: 0 0 1rem;
                     span{
-                        color: $SC;
+                        color: $PC;
                     }
 
                 }
                 h5{
                     font-size: 1.1rem;
                     margin: 0 0 2rem;
-                    font-weight: 480;
+                    font-weight: 380;
                 }
                 p{
-                    color: $GC;
-                    font-weight: 300;
-                    line-height: 1.4;
+                    color: $PC;
+                    font-weight: 180;
+                    line-height: 1.5;
                     margin: 0 0 2rem 0;
                 }
             }

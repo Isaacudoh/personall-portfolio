@@ -27,22 +27,29 @@ html{
 }
 
 .primary-btn {
-    background: $SC;
+    background: $PC;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
     text-align: center;
-    color: $PC;
+    color: $W;
     padding: 15px 30px;
     display: inline-block;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 3px;
     margin-right: 15px;
+    cursor: pointer;
+    &:hover{
+        background: $SC;
+        color: $PC;
+    }
     
 }
 
 .ghost-btn{
-    border: 4px solid $SC;
+    background: $SC;
+    border: 0px solid $PC;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -51,7 +58,13 @@ html{
     padding: 12px 27px;
     display: inline-block;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 3px;
+    cursor: pointer;
+    &:hover{
+        background: $PC;
+        color: $W;
+    }
 }
 
 #menu{
@@ -88,6 +101,11 @@ html{
 }
 
 .menu-active {
+    .menu-icon{
+        .fa{
+            color: $W;
+        }
+    }
     #menu{
         width: 100%;
         height: 100%;
