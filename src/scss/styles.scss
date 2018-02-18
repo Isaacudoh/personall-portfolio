@@ -40,7 +40,12 @@ html{
     letter-spacing: 3px;
     margin-right: 15px;
     cursor: pointer;
+    transition: $btnTransition;
+    
     &:hover{
+        -webkit-transform: rotateZ(-20deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-20deg);
         background: $SC;
         color: $PC;
     }
@@ -61,7 +66,12 @@ html{
     text-decoration: none;
     letter-spacing: 3px;
     cursor: pointer;
+    transition: $btnTransition;
+
     &:hover{
+        -webkit-transform: rotateZ(-20deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-20deg);
         background: $PC;
         color: $W;
     }

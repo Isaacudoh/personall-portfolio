@@ -43,7 +43,7 @@
     font-size: 1.8rem;
     padding: 0 10px; }
     .home .info-section .icon-section a:hover {
-      color: #faeb13; }
+      color: #41bdd3; }
     .home .info-section .icon-section a:first-child {
       padding: 0 10px 0 0; }
 
@@ -67,7 +67,10 @@
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      -webkit-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1); }
   .home .content-area .profile-section {
     vertical-align: top;
     display: inline-block;
@@ -171,8 +174,14 @@ html {
   text-decoration: none;
   letter-spacing: 3px;
   margin-right: 15px;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   .primary-btn:hover {
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-20deg);
     background: #faeb13;
     color: #0e0e10; }
 
@@ -189,8 +198,14 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 3px;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   .ghost-btn:hover {
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-20deg);
     background: #0e0e10;
     color: #ffffff; }
 
