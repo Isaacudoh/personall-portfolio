@@ -46,7 +46,7 @@
         width: 76%;
         background: $TC;
         height: 100%;
-        padding: 0 0 0 1.3rem;
+        // padding: 0 0 0 1.3rem;
         
         .img-container{
             display: inline-block;
@@ -76,12 +76,12 @@
 
             .profile{
                 h1{
-                    font-size: 2.3rem;
-                    font-weight: 500;
+                    font-size: 2.9rem;
+                    font-weight: 900;
                     line-height: 1.2;
                     margin: 0 0 1rem;
                     span{
-                        color: $AC;
+                        color: $SC;
                     }
 
                 }
