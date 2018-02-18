@@ -1,3 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 .home .logo {
   border: 1px solid #ffffff;
   height: 130px;
@@ -26,26 +73,18 @@
   bottom: 0;
   left: 0; }
   .home .info-section .info-box {
+    padding: 54px;
     position: absolute;
     bottom: 60px; }
     .home .info-section .info-box h4 {
       font-size: 1.2rem;
       color: #ffffff;
-      margin: .7rem 0; }
+      margin: 0.7rem 0; }
     .home .info-section .info-box p {
-      font-size: 1.1rem;
-      font-weight: 500;
+      font-size: 1.2rem;
+      font-weight: 300;
       color: #ffffff;
-      margin: .2rem 0 1.6rem; }
-  .home .info-section .icon-section a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.8rem;
-    padding: 0 10px; }
-    .home .info-section .icon-section a:hover {
-      color: #41bdd3; }
-    .home .info-section .icon-section a:first-child {
-      padding: 0 10px 0 0; }
+      margin: 0.2rem 0 1.6rem; }
 
 .home .content-area {
   margin-left: 35%;
@@ -93,52 +132,107 @@
       line-height: 1.5;
       margin: 0 0 2rem 0; }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+.resume .logo {
+  border: 1px solid #ffffff;
+  height: 130px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #41bdd3;
+  line-height: 0; }
+  .resume .logo:hover {
+    background: #ffffff;
+    cursor: pointer; }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+.resume .info-section {
+  padding: 54px;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+  .resume .info-section .info-box {
+    position: absolute;
+    bottom: 60px; }
+    .resume .info-section .info-box h4 {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin: 0.7rem 0; }
+    .resume .info-section .info-box p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #ffffff;
+      margin: 0.2rem 0 1.6rem; }
 
-body {
-  line-height: 1; }
+.resume .icon-section a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 1.6rem; }
+  .resume .icon-section a:hover {
+    color: #41BDD3; }
+  .resume .icon-section a:first-child {
+    padding: 0 10px 0 0; }
 
-ol, ul {
-  list-style: none; }
+.content-area {
+  margin-left: 35%;
+  width: 76%;
+  background: #41bdd3;
+  height: 100%; }
+  .content-area .img-container {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    height: 100%; }
+    .content-area .img-container .user-img {
+      position: absolute;
+      top: 90px;
+      left: -250px;
+      width: 600px;
+      height: 85%;
+      background: url(https://static.pexels.com/photos/697509/pexels-photo-697509.jpeg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -webkit-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1); }
+  .content-area .profile-section {
+    vertical-align: top;
+    display: inline-block;
+    padding: 22% 0 0 0;
+    max-width: 690px; }
+    .content-area .profile-section .profile h1 {
+      font-size: 2.9rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin: 0 0 1rem; }
+      .content-area .profile-section .profile h1 span {
+        color: #0e0e10; }
+    .content-area .profile-section .profile h5 {
+      font-size: 1.1rem;
+      margin: 0 0 2rem;
+      font-weight: 380; }
+    .content-area .profile-section .profile p {
+      color: #0e0e10;
+      font-weight: 180;
+      line-height: 1.5;
+      margin: 0 0 2rem 0; }
 
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+.content-area {
+  margin-left: 35%;
+  width: 76%;
+  background: #41bdd3;
+  height: 100%; }
 
 * {
   -webkit-box-sizing: border-box;
