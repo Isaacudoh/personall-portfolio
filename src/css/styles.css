@@ -375,9 +375,18 @@ table {
           opacity: 0;
           -webkit-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out; }
+          transition: all .3s ease-in-out;
+          overflow: hidden; }
           .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg:hover {
-            opacity: 0.5; }
+            opacity: 0.9; }
+            .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg:hover .project-info .project-details {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+              opacity: 1; }
+            .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg:hover .project-info .project-title {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0); }
           .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info {
             padding: 56px;
             position: absolute;
@@ -385,13 +394,29 @@ table {
             bottom: 0; }
             .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info .project-details {
               position: relative;
-              font-size: 1.3rem;
+              font-size: 1rem;
               text-transform: capitalize;
-              margin: 0 0 1rem; }
+              margin: 0 0 1rem;
+              -webkit-transform: translate3d(-200px, 0, 0);
+              transform: translate3d(-200px, 0, 0);
+              opacity: 0;
+              -webkit-transition: -webkit-transform .5s ease-in-out;
+              transition: -webkit-transform .5s ease-in-out;
+              -o-transition: transform .5s ease-in-out;
+              transition: transform .5s ease-in-out;
+              transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out; }
             .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info .project-title {
               font-size: 1.9rem;
               text-transform: uppercase;
-              font-weight: 700; }
+              font-weight: 700;
+              -webkit-transform: translate3d(-200px, 0, 0);
+              transform: translate3d(-200px, 0, 0);
+              opacity: 0;
+              -webkit-transition: -webkit-transform .6s ease-in-out .1s;
+              transition: -webkit-transform .6s ease-in-out .1s;
+              -o-transition: transform .6s ease-in-out .1s;
+              transition: transform .6s ease-in-out .1s;
+              transition: transform .6s ease-in-out .1s, -webkit-transform .6s ease-in-out .1s; }
             .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info .fa-long-arrow-right {
               position: absolute;
               bottom: 56px;
