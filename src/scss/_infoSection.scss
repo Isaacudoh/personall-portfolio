@@ -1,0 +1,57 @@
+.logo{
+    border: 1px solid $W;
+    height: 130px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: $TC;
+    line-height: 0;
+    &:hover{
+        background: $W;
+        cursor: pointer;
+    }
+}
+.info-section{
+    padding: 54px;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    .info-box{
+        position: absolute;
+        bottom: 60px;
+        h4{
+            font-size: 1.2rem;
+            color: $W;
+            margin: 0.7rem 0;
+        }
+
+        p{
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: $W;
+            margin: 0.2rem 0 1.6rem;
+        }
+    }
+}
+
+.icon-section{
+    a{
+        color: $W;
+        text-decoration: none;
+        padding: 0 10px;
+        font-size: 1.6rem;
+
+        &:hover{
+            color: #41BDD3;
+        }
+        &:first-child{
+            padding: 0 10px 0 0;
+        }
+
+    }
+}
