@@ -193,35 +193,38 @@ table {
   height: 100%;
   padding: 56px;
   overflow: hidden; }
-  .resume .content-area h1 {
-    font-weight: 700;
-    font-size: 3rem;
-    text-transform: uppercase;
+  .resume .content-area .category {
     margin-bottom: 56px; }
-  .resume .content-area .xp-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 56px;
-    grid-row-gap: 30px;
-    max-width: 1000px; }
-    .resume .content-area .xp-section .xp-box {
-      padding: 30px;
-      -webkit-transition: all 1s ease-in-out;
-      -o-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out; }
-      .resume .content-area .xp-section .xp-box:hover {
-        -webkit-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1); }
-      .resume .content-area .xp-section .xp-box h5 {
-        font-weight: 549;
-        font-size: 1.2rem;
-        margin-bottom: 1.4rem;
-        text-transform: uppercase; }
-      .resume .content-area .xp-section .xp-box p {
-        font-weight: 320;
-        font-size: 1rem;
-        margin-bottom: 1rem; }
+    .resume .content-area .category h1 {
+      font-weight: 700;
+      font-size: 3rem;
+      text-transform: uppercase;
+      margin-bottom: 56px; }
+    .resume .content-area .category .xp-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 56px;
+      grid-row-gap: 30px;
+      max-width: 1000px; }
+      .resume .content-area .category .xp-section .xp-box {
+        padding: 30px;
+        -webkit-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        cursor: pointer; }
+        .resume .content-area .category .xp-section .xp-box:hover {
+          -webkit-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.1); }
+        .resume .content-area .category .xp-section .xp-box h5 {
+          font-weight: 549;
+          font-size: 1.2rem;
+          margin-bottom: 1.4rem;
+          text-transform: uppercase; }
+        .resume .content-area .category .xp-section .xp-box p {
+          font-weight: 320;
+          font-size: 1rem;
+          margin-bottom: 1rem; }
 
 .resume .logo {
   border: 1px solid #ffffff;
