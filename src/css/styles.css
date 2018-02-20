@@ -191,7 +191,6 @@ table {
   width: 80%;
   min-width: 300px;
   height: 100%;
-  padding: 56px;
   overflow: hidden; }
   .resume .content-area .category {
     margin-bottom: 56px; }
@@ -400,23 +399,19 @@ table {
               -webkit-transform: translate3d(-200px, 0, 0);
               transform: translate3d(-200px, 0, 0);
               opacity: 0;
-              -webkit-transition: -webkit-transform .5s ease-in-out;
-              transition: -webkit-transform .5s ease-in-out;
-              -o-transition: transform .5s ease-in-out;
-              transition: transform .5s ease-in-out;
-              transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out; }
+              -webkit-transition: all .5s ease-in;
+              -o-transition: all .5s ease-in;
+              transition: all .5s ease-in; }
             .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info .project-title {
               font-size: 1.9rem;
               text-transform: uppercase;
               font-weight: 700;
-              -webkit-transform: translate3d(-200px, 0, 0);
-              transform: translate3d(-200px, 0, 0);
+              -webkit-transform: translate3d(-100px, 0, 0);
+              transform: translate3d(-100px, 0, 0);
               opacity: 0;
-              -webkit-transition: -webkit-transform .6s ease-in-out .1s;
-              transition: -webkit-transform .6s ease-in-out .1s;
-              -o-transition: transform .6s ease-in-out .1s;
-              transition: transform .6s ease-in-out .1s;
-              transition: transform .6s ease-in-out .1s, -webkit-transform .6s ease-in-out .1s; }
+              -webkit-transition: all .6s ease-in .1s;
+              -o-transition: all .6s ease-in .1s;
+              transition: all .6s ease-in .1s; }
             .portfolio .content-area .portfolio-section .project-section .project-box .grey-bg .project-info .fa-long-arrow-right {
               position: absolute;
               bottom: 56px;
@@ -545,3 +540,10 @@ html {
   bottom: 0;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
+
+.scroll-section {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 56px;
+  color: #0e0e10; }
