@@ -97,8 +97,8 @@ table {
 
 .home .logo {
   border: 1px solid #ffffff;
-  height: 130px;
-  width: 250px;
+  height: 110px;
+  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,12 +108,13 @@ table {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #41bdd3;
   line-height: 0; }
   .home .logo:hover {
     background: #ffffff;
-    cursor: pointer; }
+    cursor: pointer;
+    border-bottom: 1rem solid; }
 
 .home .info-section {
   padding: 54px;
@@ -336,7 +337,6 @@ table {
   width: 80%;
   min-width: 300px;
   height: 100%;
-  padding: 56px;
   overflow: hidden; }
   .portfolio .content-area .portfolio-section {
     margin-bottom: 56px; }
