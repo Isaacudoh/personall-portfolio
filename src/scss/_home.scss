@@ -24,7 +24,6 @@
         left: 0;
 
         .info-box{
-            padding: 54px;
             position: absolute;
             bottom: 60px;
             h4{
@@ -42,8 +41,6 @@
         }
 
     }
-
-}
 
     .content-area{
         margin-left: 35%;
@@ -105,5 +102,36 @@
                 }
             }
         }
-
     }
+} 
+// MEDIA QUERIES
+//phone - 2nd
+@media (max-width: 767px) {
+    
+}
+//tablet - 1st
+@media (min-width: 768px) and (max-width: 991px) {
+    .home{
+        .content-area{
+            .user-img{
+                position: static;
+                width: 100%;
+            }
+        }
+
+        .profile-section{
+            width: 70%;
+            float: right;
+            padding: 20% 20px 0;
+        }
+    
+    }
+}
+// laptop
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}    
+//extra big - 3rd one
+@media (min-width: 1200px){
+
+}    

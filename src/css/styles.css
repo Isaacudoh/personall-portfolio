@@ -124,7 +124,6 @@ table {
   bottom: 0;
   left: 0; }
   .home .info-section .info-box {
-    padding: 54px;
     position: absolute;
     bottom: 60px; }
     .home .info-section .info-box h4 {
@@ -137,17 +136,17 @@ table {
       color: #ffffff;
       margin: 0.2rem 0 1.6rem; }
 
-.content-area {
+.home .content-area {
   margin-left: 35%;
   width: 76%;
   background: #41bdd3;
   height: 100%; }
-  .content-area .img-container {
+  .home .content-area .img-container {
     display: inline-block;
     width: 30%;
     position: relative;
     height: 100%; }
-    .content-area .img-container .user-img {
+    .home .content-area .img-container .user-img {
       position: absolute;
       top: 90px;
       left: -250px;
@@ -161,27 +160,87 @@ table {
       -webkit-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.1); }
-  .content-area .profile-section {
+  .home .content-area .profile-section {
     vertical-align: top;
     display: inline-block;
     padding: 22% 0 0 0;
     max-width: 690px; }
-    .content-area .profile-section .profile h1 {
+    .home .content-area .profile-section .profile h1 {
       font-size: 2.9rem;
       font-weight: 900;
       line-height: 1.2;
       margin: 0 0 1rem; }
-      .content-area .profile-section .profile h1 span {
+      .home .content-area .profile-section .profile h1 span {
         color: #0e0e10; }
-    .content-area .profile-section .profile h5 {
+    .home .content-area .profile-section .profile h5 {
       font-size: 1.1rem;
       margin: 0 0 2rem;
       font-weight: 380; }
-    .content-area .profile-section .profile p {
+    .home .content-area .profile-section .profile p {
       color: #0e0e10;
       font-weight: 180;
       line-height: 1.5;
       margin: 0 0 2rem 0; }
+
+@media (max-width: 767px) {
+  .home .info-section {
+    padding: 30px 60px;
+    position: static; }
+    .home .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 1.3rem; }
+    .home .info-section .info-box {
+      display: none; }
+  .home .content-area {
+    margin-left: 0;
+    width: 100%; }
+    .home .content-area .img-container {
+      padding: 56px 20px 0; }
+      .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%; }
+    .home .content-area .profile-section {
+      width: 80%;
+      float: right;
+      padding: 20% 20px 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: right;
+    padding: 20% 20px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    padding: 20% 20px 0;
+    max-width: 800px; }
+    .home .content-area .profile-section .primary-btn,
+    .home .content-area .profile-section .ghost-btn {
+      margin: buttom 20px; } }
+
+@media (min-width: 1200px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    max-width: 800px;
+    padding: 20% 60px 0; } }
 
 .resume .info-section {
   width: 20%; }
